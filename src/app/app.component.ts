@@ -13,8 +13,8 @@ export class AppComponent {
       authDomain: 'angular-firebase-app-1301e.firebaseapp.com',
       databaseURL: 'https://angular-firebase-app-1301e.firebaseio.com',
       projectId: 'angular-firebase-app-1301e',
-      storageBucket: '',
-      messagingSenderId: '298007598379'
+      messagingSenderId: '298007598379',
+      storageBucket: 'gs://angular-firebase-app-1301e.appspot.com'
     };
     firebase.initializeApp(config);
   }
